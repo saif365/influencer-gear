@@ -88,6 +88,8 @@ nav h3{
  }
  
  /* Top section end  */
+
+ /* logo  */
  .logo{
      margin: 10px;
      padding: 10px;
@@ -100,7 +102,7 @@ nav h3{
      margin: 10px;
      padding: 10px;
  }
- 
+ /* logo end  */
  /* Collection */
 
  .section-title{
