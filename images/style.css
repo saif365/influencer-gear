@@ -73,9 +73,9 @@ nav h3{
     font-size: 40px;
 
  }
- .button{
+ button{
      background-color: crimson;
-     padding: 10px 30px;
+     padding: 10px 40px;
      border-radius: 20px;
      color: floralwhite;
      text-decoration: none;
@@ -85,6 +85,8 @@ nav h3{
  .fas fa-long-arrow-alt-right{
   text-align:center ;
   color: #fff;
+  
+  
  }
  
  /* Top section end  */
@@ -117,6 +119,7 @@ nav h3{
      gap: 5px;
      justify-content: center;
      align-items: center;
+     max-width: 100%;
     
     
     
@@ -223,7 +226,7 @@ nav h3{
     
  }
 
- @media (max-width:950px) {
+ @media (max-width:1050px) {
      .cards{
          grid-template-columns: 1fr 1fr;
      }
@@ -237,13 +240,8 @@ nav h3{
      .button{
          padding: 5px 10px;
      }
-     .fas fa-long-arrow-alt-right{
-         text-align: right;
-     }
-     .half-width{
-         padding: 0;
-         margin: 0;
-     }
+     
+     
     }
      
  
